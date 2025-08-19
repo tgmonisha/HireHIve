@@ -1,0 +1,46 @@
+/* Navbar.css */
+.navbar {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4rem;
+    padding: 0 1rem;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Ensures the logo stays on the left */
+    margin-left: 0; /* Adjust if you need spacing from the edge */
+}
+.navbar img {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+    display: block;
+}
+.navbar-items {
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* Adds spacing between navigation items */
+}
+
+.navbar-items ul {
+    display: flex;
+    gap: 1rem; /* Adds spacing between links */
+    list-style: none; /* Removes bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-items ul li {
+    font-weight: 500;
+}
+
+.navbar-items .buttons {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
