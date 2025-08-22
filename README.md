@@ -55,6 +55,18 @@ npm run dev
 
 Frontend runs on: http://localhost:5173
 
+## 📸 Screenshots
+
+### 🏠 Homepage
+![Homepage](images/home.jpg)
+
+### 💼 Homepage - Jobs Section
+![Homepage Jobs](images/homepagejobs.jpg)
+
+### 🔍 Search Jobs
+![Search Jobs](images/searchjobs.jpg)
+
+
 ## 📜 License
 
 This project is licensed under the **[MIT License](LICENSE)**.
